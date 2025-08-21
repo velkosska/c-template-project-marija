@@ -9,11 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True) # This tells CMake that the stdandard must
 # This line tells CMake to generate the compile_commands.json file, which VSCode can use to provide intellisense
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# We place the executables in the bin directory
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-# We place the libraries in the lib directory
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-
 # We normally have a CMakeLists.txt file in each directory that has something that needs to be built
 add_subdirectory(src)
 enable_testing() # This line allows to call ctest after compilation
