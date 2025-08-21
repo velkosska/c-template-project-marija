@@ -51,7 +51,7 @@ jobs:
     - name: Configure and compile the library
       run: |
         micromamba activate cppdev
-        cmake -DCMAKE_VERBOSE_MAKEFILE=yes -B build
+        cmake -DCMAKE_VERBOSE_MAKEFILE=yes -DCMAKE_INSTALL_PREFIX=$CONDA_PREFIX -B build
         cmake --build build --config Release --parallel 4
                 
     - name: Run tests
