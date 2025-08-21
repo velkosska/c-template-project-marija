@@ -1,13 +1,14 @@
 name: cppdev
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python=3.11
+  - python
   - cmake
   - ninja
   - make
+  - clang
   - clangxx
+  - ld64
   - doxygen
   - pip 
   - pip:
