@@ -6,9 +6,7 @@ dependencies:
   - cmake
   - ninja
   - make
-  - clang
-  - clangxx
-  - ld64
+  - c-compiler
   - doxygen
   - pip 
   - pip:

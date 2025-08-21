@@ -1,40 +1,16 @@
-#pragma once
-#include <string>
-namespace homework {
-
-/**
- * @brief This function does something useful
- * @param a This is a double
- * @param str This is a string
- * @return The result of the useful operation
+/** * @file some_library.h
+ * @brief This is a very well documented library.
+ *
+ * This file contains the declaration of some very relevant functions
  */
-int this_is_a_function(double a, std::string str);
 
+#ifndef SOME_LIBRARY_H
+#define SOME_LIBRARY_H
 /**
- * @brief This is a class that does something useful
+ * @brief This is a very well documented function.
+ *
+ * This function does something very important.
  */
-class ThisIsAClass {
+void do_something(void);
 
-  int internal_variable1;
-  double internal_variable2;
-public:
-    /**
-     * @brief This is a constructor
-     */
-    ThisIsAClass();
-
-    /**
-     * @brief This is a destructor
-     */
-    ~ThisIsAClass();
-
-    /**
-     * @brief This is a member function
-     * @param a This is a double
-     * @param str This is a string
-     * @return The result of the useful operation
-     */
-    int this_is_a_member_function(double a, std::string str);
-};
-
-} // namespace homework
+#endif

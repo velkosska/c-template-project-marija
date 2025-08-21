@@ -6,7 +6,7 @@ Welcome to the landing page!
 A section
 ----------
 
-.. doxygennamespace:: homework
+.. doxygenfile:: some_library.h
 
 
 Docs
