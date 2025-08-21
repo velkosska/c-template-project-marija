@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(Homework C CXX)
+project(Homework C)
 
 set(PROJECT_AUTHOR "Raul P. Pelaez")
 
