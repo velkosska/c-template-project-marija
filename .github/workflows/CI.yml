@@ -13,13 +13,13 @@ defaults:
 jobs:
   build:
     name: ${{ matrix.name }}
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        include:
-          # Latest supported versions
-          - name: Linux
+        name: [Linux, MacOS 15 (ARM), MacOS 13 (x86), Windows]
+        os: [ubuntu-latest, macos-15, macos-13, windows-latest]      
+
     steps:
     - name: Check out
       uses: actions/checkout@v4
@@ -53,4 +53,4 @@ jobs:
         micromamba activate cppdev
         cd build
         ctest --output-on-failure 
-                
+              
