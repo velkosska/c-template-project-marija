@@ -37,10 +37,10 @@ jobs:
       run: cat environment.yml
       
     - name: Install Mamba
-      uses: mamba-org/setup-micromamba@v1
+      uses: mamba-org/setup-micromamba@v2
       with:
         environment-file: environment.yml
-        cache-environment: false
+        cache-environment: true
         cache-downloads: true
 
     - name: List environment
