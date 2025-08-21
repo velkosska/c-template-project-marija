@@ -17,8 +17,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        name: [Linux, MacOS 15 (ARM), MacOS 13 (x86), Windows]
-        os: [ubuntu-latest, macos-15, macos-13, windows-latest]      
+        include:
+          - name: Linux
+            os: ubuntu-latest
+          - name: MacOS 15 (ARM)
+            os: macos-15
+          - name: macOS 13 (x86)
+            os: macos-13
+          - name: Windows
+            os: windows-latest
 
     steps:
     - name: Check out
