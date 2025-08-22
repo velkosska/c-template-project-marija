@@ -58,5 +58,5 @@ jobs:
       run: |
         micromamba activate cppdev
         cd build
-        ctest --output-on-failure 
+        ctest --output-on-failure -C Release
               
