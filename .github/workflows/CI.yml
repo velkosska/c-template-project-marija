@@ -42,6 +42,7 @@ jobs:
         environment-file: environment.yml
         cache-environment: true
         cache-downloads: true
+        environment-name: cppdev
 
     - name: List environment
       run: |

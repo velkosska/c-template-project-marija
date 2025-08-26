@@ -1,4 +1,4 @@
-name: cppdev
+name: cdev
 channels:
   - conda-forge
 dependencies:
