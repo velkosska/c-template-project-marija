@@ -25,17 +25,12 @@ To build the project, create a build directory and run CMake from there:
 cmake -B build
 cmake --build build
 ```
-```bash
-cmake -B build -G "Ninja" ..
-cmake --build build
-```
 #### You can now run the tests:
 
 ```bash
 cd build
 ctest
 ```
-It might be called ctest.exe in Windows.
 Every test included in the source codes under `tests` will be run.
 
 #### Rendering the documentation
