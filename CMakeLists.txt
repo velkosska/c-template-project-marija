@@ -8,7 +8,7 @@ set(CMAKE_C_STANDARD_REQUIRED True)
 set(CMAKE_C_EXTENSIONS OFF)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
-add_subdirectory(src)
 enable_testing()
+add_subdirectory(src)
 add_subdirectory(tests)
 add_subdirectory(docs)
