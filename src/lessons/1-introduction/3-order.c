@@ -16,6 +16,24 @@ int main(){
     return EXIT_SUCCESS;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Answer: Never rely on the order of evaluation of function arguments in C, as it is unspecified.
 //  The compiler will choose one arbitrarily depending on the context.
 // In order to avoid this undefined behavior, we must write functions that do not have side effects.

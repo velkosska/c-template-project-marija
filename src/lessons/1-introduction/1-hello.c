@@ -1,4 +1,3 @@
-/* -*- mode: C -*- */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,6 +14,6 @@ int main(int argc, [[maybe_unused]] char *argv[argc + 1]) {
   for (size_t i = 0; i < 5; ++i) {
     if (i)
       printf("element %zu is %g, \tsquared is %g\n", i, A[i], A[i] * A[i]);
-  }
+  }  
   return EXIT_SUCCESS;
 }
