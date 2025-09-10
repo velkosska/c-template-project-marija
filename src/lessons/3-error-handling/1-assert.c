@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <stdio.h>
 #define MAX_ALLOWED_SIZE 8
-// constexpr int MAX_ALLOWED_SIZE = 8;
+//constexpr int MAX_ALLOWED_SIZE = 8;
 
 void foo(int *ptr, size_t size) {
   assert(ptr != NULL);
