@@ -3,7 +3,6 @@
 #include <assert.h>
 #include <errno.h>
 
-/* Exit hook: runs when the program finishes */
 static void exit_handler(void) {
     printf("Program exiting. errno = %d\n", errno);
 }
@@ -40,8 +39,6 @@ int vectorized_divide(int *a, int *b, int *result, int size) {
             fprintf(stderr, "Error: division by zero at index %d\n", i);
             return -2;
         }
-        /* Note: we’re not adding extra headers, so we’re not checking for the
-           rare int overflow case (INT_MIN / -1). */
         result[i] = a[i] / b[i];
     }
     return 0;
@@ -49,7 +46,7 @@ int vectorized_divide(int *a, int *b, int *result, int size) {
 
 int main(void) {
     atexit(exit_handler);
-    errno = 0;  /* ensure clean state for success path */
+    errno = 0;  
 
     int numbers[5]  = {1, 2, 3, 4, 20};
     int divisors[5] = {0, 1, 2, 3, 4};
