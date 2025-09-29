@@ -1,0 +1,50 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h80987f9_6
+  - c-ares=1.34.5=h2ca31fc_0
+  - c-compiler=1.9.0=h80987f9_0
+  - ca-certificates=2025.7.15=hca03da5_0
+  - cctools=949.0.1=hc179dcd_26
+  - cctools_osx-arm64=949.0.1=h69e4071_26
+  - clang=14.0.6=hca03da5_2
+  - clang-14=14.0.6=default_h1b80db6_2
+  - clang_osx-arm64=14.0.6=h9ff6fda_0
+  - clangxx=14.0.6=default_h1b80db6_2
+  - cmake=3.31.2=h89d4fe9_0
+  - compiler-rt=14.0.6=h4ccfd99_0
+  - compiler-rt_osx-arm64=14.0.6=h4fb70ea_0
+  - curl=8.15.0=hc25b543_0
+  - expat=2.7.1=h313beb8_0
+  - gettext=0.21.0=hbdbcc25_2
+  - git=2.45.2=pl5402hd76dba3_2
+  - icu=73.1=h313beb8_0
+  - ld64=530=hb29bf3f_26
+  - ld64_osx-arm64=530=hac4b543_26
+  - ldid=2.1.5=h20b2a84_3
+  - libclang-cpp14=14.0.6=default_h1b80db6_2
+  - libcurl=8.15.0=hcdd2897_0
+  - libcxx=14.0.6=h848a8c0_0
+  - libev=4.33=h1a28f6b_1
+  - libffi=3.4.4=hca03da5_1
+  - libiconv=1.16=h80987f9_3
+  - libllvm14=14.0.6=h19fdd8a_4
+  - libnghttp2=1.57.0=h62f6fdd_0
+  - libssh2=1.11.1=h3e2b118_0
+  - libuv=1.48.0=h80987f9_0
+  - libxml2=2.13.8=h0b34f26_0
+  - llvm-openmp=20.1.8=he822017_0
+  - llvm-tools=14.0.6=h7ec7a93_4
+  - lz4-c=1.9.4=h313beb8_1
+  - ncurses=6.5=hee39554_0
+  - openssl=3.0.17=h4ee41c1_0
+  - pcre2=10.42=hb066dcc_1
+  - perl=5.40.2=0_h80987f9_perl5
+  - rhash=1.4.3=h02f6b3c_0
+  - tapi=1100.0.11=h8754e6a_1
+  - tk=8.6.15=hcd8a7d5_0
+  - xz=5.6.4=h80987f9_1
+  - zlib=1.2.13=h18a0788_1
+  - zstd=1.5.6=hfb09047_0
+prefix: /Users/marijavelkoska/miniconda3/envs/myenv
