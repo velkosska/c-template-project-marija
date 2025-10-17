@@ -4,3 +4,8 @@ build/
 .DS_Store
 .DS_Store
 src/.DS_Store
+src/.DS_Store
+src/homework/lesson5_6_7/injection
+.gitignore
+src/homework/lesson8/ranks.dat
+src/.DS_Store
