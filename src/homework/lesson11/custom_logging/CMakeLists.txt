@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(custom_logging C)
+set(CMAKE_C_STANDARD 11)
+include_directories(include)
+add_executable(custom_logging src/main.c src/logger.c)
